@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -57,17 +56,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bZ2-Uu-HBf">
-                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ouR-fm-s3e" firstAttribute="trailing" secondItem="bZ2-Uu-HBf" secondAttribute="trailing" id="JBX-61-kge"/>
-                            <constraint firstItem="bZ2-Uu-HBf" firstAttribute="leading" secondItem="ouR-fm-s3e" secondAttribute="leading" id="JLX-fJ-1AF"/>
-                            <constraint firstItem="ouR-fm-s3e" firstAttribute="bottom" secondItem="bZ2-Uu-HBf" secondAttribute="bottom" id="Ssh-hb-Lf5"/>
-                            <constraint firstItem="bZ2-Uu-HBf" firstAttribute="top" secondItem="ouR-fm-s3e" secondAttribute="top" id="d5m-lq-m8h"/>
+                            <constraint firstAttribute="trailing" secondItem="bZ2-Uu-HBf" secondAttribute="trailing" id="JBX-61-kge"/>
+                            <constraint firstItem="bZ2-Uu-HBf" firstAttribute="leading" secondItem="xCc-vc-44m" secondAttribute="leading" id="JLX-fJ-1AF"/>
+                            <constraint firstAttribute="bottom" secondItem="bZ2-Uu-HBf" secondAttribute="bottom" id="Ssh-hb-Lf5"/>
+                            <constraint firstItem="bZ2-Uu-HBf" firstAttribute="top" secondItem="xCc-vc-44m" secondAttribute="top" id="d5m-lq-m8h"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="ouR-fm-s3e"/>
                     </view>
                     <connections>
                         <outlet property="imageViewer" destination="bZ2-Uu-HBf" id="cbg-zb-5aI"/>
